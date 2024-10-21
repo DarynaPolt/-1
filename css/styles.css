@@ -46,12 +46,26 @@ body {
     line-height: 1.5;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+}
+
 address {
     font-style: normal;
 }
 
 ul {
     list-style-type: none;
+}
+
+.section {
+    padding: 49px 0;
 }
 
 /* Button */
@@ -81,7 +95,11 @@ ul {
 }
 
 /* Hero section */
+.hero-section {
+    padding: 272px 0;
+}
 .hero-title {
+    margin-bottom: 0;
     color: var(--color-primary-light);
     text-align: center;
     font-size: 128px;
@@ -94,7 +112,7 @@ ul {
 
 /* Advantages section */
 .advantages-list {
-    color: var(--color-primary-light);
+    color:var(--color-primary-light);
     background-color: var(--color-brand-light);
 }
 .advantages-item {
