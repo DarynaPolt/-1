@@ -139,7 +139,12 @@ ul {
 /* Hero section */
 .hero-section {
     padding: 272px 0;
+    background-image:url('../images/couple-in-baker.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
 }
+
 .hero-title {
     margin-bottom: 0;
     color: var(--color-primary-light);
@@ -228,11 +233,12 @@ padding-top: 96px;
 }
 
 .formats.item {
-flex-basis: calc((100% - 40px) / 3);
+    flex-basis: calc((100% - 40px) / 3);
 }
 
 .format-card {
     padding: 24px;
+    background-image: url('../images/wairus-format.png');
     border: 1px solid lightgray; /* remove */
     border-radius: 16px;
 }
@@ -240,6 +246,7 @@ flex-basis: calc((100% - 40px) / 3);
 .formats-title {
     margin-bottom: 80px;
 }
+
 .format-title {
     font-style: 24px;
     font-weight: 600;
