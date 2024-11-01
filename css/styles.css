@@ -139,7 +139,7 @@ ul {
 /* Hero section */
 .hero-section {
     padding: 272px 0;
-    background-image:url('../images/couple-in-baker.png');
+    background-image:url('../images/hero-section-background.png');
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -238,7 +238,7 @@ padding-top: 96px;
 
 .format-card {
     padding: 24px;
-    background-image: url('../images/wairus-format.png');
+    /* background-image: url('../images/walrus-format.png'); */
     border: 1px solid lightgray; /* remove */
     border-radius: 16px;
 }
@@ -276,4 +276,12 @@ padding-top: 96px;
 
 .address-copyright {
     font-size: 14px;
+}
+
+.footer {
+    background-image: url('../images/footer-background.png');
+    background-color: var(--color-primary-dark);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
